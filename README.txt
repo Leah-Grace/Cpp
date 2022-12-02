@@ -23,3 +23,5 @@ Variables - A variable is the NAME of the LOCATION in memory. Since the VALUE st
 Declaration - Statement of data type and variable name.
 Initialization - Statement of variable value.
 Always initialize variables before using them or the program will provide random information retrieved from memory.
+'std' - Statement telling the OS what to do. Prints to the console/screen.
+'cout' short for 'character out'
