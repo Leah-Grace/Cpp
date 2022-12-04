@@ -2,8 +2,12 @@
 
 
 int main() {
-        int a = 1;
-        int b = 2;
+        int a;
+        int b;
+        std::cout << "Enter value for a";
+        std::cin >> a;
+        std::cout << "Enter value for b";
+        std::cin >> b;
         int tempB = b;
         b = a;
         a = tempB;
