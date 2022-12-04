@@ -1,18 +1,19 @@
 #include <iostream>
 
+using namespace std;
 
 int main() {
         int a;
         int b;
-        std::cout << "Enter value for a";
-        std::cin >> a;
-        std::cout << "Enter value for b";
-        std::cin >> b;
+        cout << "Enter value for a";
+        cin >> a;
+        cout << "Enter value for b";
+        cin >> b;
         int tempB = b;
         b = a;
         a = tempB;
-        std::cout << a;
-        std::cout << b;
+        cout << a;
+        cout << b;
         return 0;
     }
 
